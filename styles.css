@@ -119,3 +119,46 @@ main {
 h5, p {
     color: white !important;
 }
+
+form {
+    width: 70%;
+}
+
+.m-home {
+    display: flex;
+    justify-content: space-around;
+}
+
+#result {
+    display: flex;
+    flex-direction: column;
+}
+
+#imageResult {
+    width: 25rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+#descriptionResult {
+    margin-top: 1rem;
+}
+
+#imageResult2 {
+    width: 25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#descriptionResult2 {
+    margin-top: 1rem;
+}
+
+#search-bar {
+    width: 25rem;
+}
+
+#search-form {
+    position: absolute;
+    left: 60rem;
+}
