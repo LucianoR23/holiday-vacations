@@ -1,11 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    height: 100%;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: #049BD1;
+    height: 5vh;
+    color: white;
 }
 
 nav ul {
-    width: 30rem;
+    width: 35rem;
     display: flex;
     list-style: none;
     justify-content: space-between;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#btnClear, #btnSearch {
+    background-color: #01CE8D;
+}
+
+main {
+    height: 95vh;
+    background-image: url(./ciudad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.home {
+    height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 3rem;
+}
+
+.home h2 {
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.home p {
+    padding-left: 2rem;
+    font-weight: bold;
+}
+
+.home button {
+    margin-left: 2rem;
 }
